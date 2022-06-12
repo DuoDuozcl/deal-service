@@ -1,15 +1,11 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Main2 {
+public class Main {
 
     public static HashMap<String, Merchandise> commoditiesList = new HashMap<>();
 
     public static void main(String[] args) {
-        Start();
-    }
-
-    public static void Start() {
         int id = 1;
         while (true) {
             System.out.println("请输入数字选择操作：\n\t1、新建商品\n\t2、修改商品\n\t3、删除商品\n\t4、展示商品\n\t输入0结束程序。");
