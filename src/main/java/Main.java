@@ -13,6 +13,7 @@ public class Main {
             if (!input.hasNextInt()) {
                 System.out.println("请输入数字！");
                 continue;
+                
             }
             int num = input.nextInt();
             if (num == 0) break;
